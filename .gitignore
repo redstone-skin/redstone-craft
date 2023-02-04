@@ -1,0 +1,8 @@
+/world
+/world_nether
+/world_the_end
+authlib-injector.log
+/logs
+/libraries
+*.json
+.console_history
