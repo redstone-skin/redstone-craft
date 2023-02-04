@@ -10,6 +10,8 @@ set MC_ARGS=nogui
 set BOOT_CMD=%JAVA_BIN% %JVM_ARGS% %MC_ARGS%
 
 :RUN_SERVER
+echo Server will start in 5s. Use CTRL+C to cancel.
+ping 127.0.0.1>nul
 %BOOT_CMD%
 
 goto RUN_SERVER
