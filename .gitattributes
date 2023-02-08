@@ -1,0 +1,2 @@
+# ignore server.properties change
+server.properties filter=ignorecomment
